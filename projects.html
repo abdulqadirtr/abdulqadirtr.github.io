@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Projects | Abdul Qadir</title>
+    <meta name="description" content="Production Android applications by Abdul Qadir — 500K+ downloads across finance, lifestyle, and energy sectors.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Abdul Qadir</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- PROJECTS LIST -->
+    <section class="section-container">
+
+        <!-- BKT SMART BANKING -->
+        <div class="project-showcase fade-in">
+            <div class="project-showcase-content">
+                <h2>BKT Smart Banking</h2>
+                <p class="project-category">
+                    <i class="fas fa-university"></i> Finance • Banking • 300K+ Downloads
+                </p>
+                <p>
+                    Enterprise-grade secure banking application with biometric authentication,
+                    payment gateways handling <strong>100K+ daily transactions</strong>,
+                    offline-first architecture using Room, and MVI pattern with StateFlow.
+                    Reduced UI inconsistencies by 40% and achieved 99.5% crash-free rate.
+                </p>
+                <div class="project-tech-stack">
+                    <span class="tech-badge">Kotlin</span>
+                    <span class="tech-badge">Clean Architecture</span>
+                    <span class="tech-badge">Jetpack Compose</span>
+                    <span class="tech-badge">MVVM + MVI</span>
+                    <span class="tech-badge">Hilt</span>
+                    <span class="tech-badge">Coroutines</span>
+                    <span class="tech-badge">OAuth 2.0</span>
+                    <span class="tech-badge">Biometric Auth</span>
+                </div>
+                <a href="https://play.google.com/store/apps/details?id=com.bkt.mobile"
+                   target="_blank" class="btn btn-primary">
+                    <i class="fab fa-google-play"></i> View on Play Store
+                </a>
+            </div>
+            <div class="project-showcase-visual">
+                <div class="phone-mockup">
+                    <img src="assets/images/bkt.webp" alt="BKT Smart Banking App">
+                </div>
+            </div>
+        </div>
+
+        <!-- KOCAILEM -->
+        <div class="project-showcase reverse fade-in">
+            <div class="project-showcase-content">
+                <h2>KocAilem</h2>
+                <p class="project-category">
+                    <i class="fas fa-heart"></i> Lifestyle • E-commerce • 200K+ Downloads
+                </p>
+                <p>
+                    Full-featured lifestyle and e-commerce platform with messaging capabilities.
+                    Improved user engagement by <strong>20%</strong> through optimized UI/UX
+                    using ViewBinding, ConstraintLayout, and RecyclerView with DiffUtil.
+                    Established CI/CD pipeline with GitHub Actions reducing deployment time by 50%.
+                </p>
+                <div class="project-tech-stack">
+                    <span class="tech-badge">Kotlin</span>
+                    <span class="tech-badge">MVVM</span>
+                    <span class="tech-badge">Retrofit</span>
+                    <span class="tech-badge">Room</span>
+                    <span class="tech-badge">Hilt</span>
+                    <span class="tech-badge">Jetpack Navigation</span>
+                    <span class="tech-badge">Coroutines</span>
+                    <span class="tech-badge">GitHub Actions</span>
+                </div>
+                <a href="https://play.google.com/store/apps/details?id=com.koc.kocailem&hl=en"
+                   target="_blank" class="btn btn-primary">
+                    <i class="fab fa-google-play"></i> View on Play Store
+                </a>
+            </div>
+            <div class="project-showcase-visual">
+                <div class="phone-mockup">
+                    <img src="assets/images/koc.webp" alt="KocAilem App">
+                </div>
+            </div>
+        </div>
+
+        <!-- ENERJISA -->
+        <div class="project-showcase fade-in">
+            <div class="project-showcase-content">
+                <h2>Enerjisa Mobile</h2>
+                <p class="project-category">
+                    <i class="fas fa-bolt"></i> Enterprise • Energy Sector
+                </p>
+                <p>
+                    Migrated <strong>3 legacy Java enterprise apps to Kotlin</strong>,
+                    improving code maintainability by 40% and reducing codebase by 30%.
+                    Refactored to MVVM architecture with LiveData and Data Binding,
+                    reducing memory leaks by 60%. Integrated Firebase Analytics,
+                    Crashlytics, and third-party energy billing systems.
+                </p>
+                <div class="project-tech-stack">
+                    <span class="tech-badge">Kotlin</span>
+                    <span class="tech-badge">MVVM</span>
+                    <span class="tech-badge">RxJava</span>
+                    <span class="tech-badge">Retrofit</span>
+                    <span class="tech-badge">Firebase</span>
+                    <span class="tech-badge">Crashlytics</span>
+                    <span class="tech-badge">LiveData</span>
+                    <span class="tech-badge">Data Binding</span>
+                </div>
+                <a href="https://play.google.com/store/apps/details?id=com.enerjisa.android&hl=en_SG"
+                   target="_blank" class="btn btn-primary">
+                    <i class="fab fa-google-play"></i> View on Play Store
+                </a>
+            </div>
+            <div class="project-showcase-visual">
+                <div class="phone-mockup">
+                    <img src="assets/images/enerjisa.webp" alt="Enerjisa Mobile App">
+                </div>
+            </div>
+        </div>
+
+        <!-- AIRLINE BOOKING -->
+        <div class="project-showcase reverse fade-in">
+            <div class="project-showcase-content">
+                <h2>Airline Booking App</h2>
+                <p class="project-category">
+                    <i class="fas fa-plane"></i> Travel • 10K+ Active Users
+                </p>
+                <p>
+                    Architected from scratch using Clean Architecture principles.
+                    Implemented reactive state management with MVI pattern, Kotlin Coroutines,
+                    and StateFlow. Built offline-first architecture with Room database
+                    achieving <strong>99.5% crash-free rate</strong> and 60 FPS UI rendering.
+                    Reduced app size by 25% through ProGuard/R8 optimization.
+                </p>
+                <div class="project-tech-stack">
+                    <span class="tech-badge">Kotlin</span>
+                    <span class="tech-badge">Jetpack Compose</span>
+                    <span class="tech-badge">Clean Architecture</span>
+                    <span class="tech-badge">MVI</span>
+                    <span class="tech-badge">StateFlow</span>
+                    <span class="tech-badge">Room</span>
+                    <span class="tech-badge">ProGuard/R8</span>
+                </div>
+            </div>
+            <div class="project-showcase-visual">
+                <div class="phone-mockup">
+                    <img src="assets/images/airline-booking.png" alt="Airline Booking App">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; <span id="currentYear"></span> Abdul Qadir • Senior Android Developer</p>
+    </footer>
+
+    <!-- SCROLL TOP -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
